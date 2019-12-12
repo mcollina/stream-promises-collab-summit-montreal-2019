@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>Big</title>
+  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='highlight.css' rel='stylesheet' type='text/css' />
+  <style>
+    .new-shiny { background: #aaaaaa; }
+  </style>
+  <script src='big.js'></script>
+  <script src='highlight.js'></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class='dark'>
+  <div class="title">How do we get <em>promises</em> into <em>Streams</em>?</div>
+  <div>
+    Once upon a time...
+  </div>
+  <div>
+    This is an <em>interactive</em> session!
+  </div>
+  <div>
+    We are going to work together on ideating some new APIs for Node.js
+  </div>
+  <div>
+    Divide yourself into groups of 3-5 people!
+  </div>
+  <div>
+    Work together for 15 minutes to brainstorm an API, and then post it to the issue:
+    <a href="https://github.com/openjs-foundation/summit/issues/216">https://github.com/openjs-foundation/summit/issues/216</a>
+  </div>
+  <div class="title">
+    How we <em>promisify</em> <code>Writable.write()</code>?
+  </div>
+  <div>
+    Key constrains:
+
+    <ol>
+      <li>highwaterMark support</li>
+      <li>error handling</li>
+    </ol>
+  </div>
+  <div>
+    <pre>
+      <code class="javascript">
+for await (let chunk of stream) {
+  await ???
+}
+      </code>
+    </pre>
+  </div>
+  <div>
+    <a href="https://github.com/openjs-foundation/summit/issues/216">https://github.com/openjs-foundation/summit/issues/216</a>
+  </div>
+  <div>
+    <em>Recap</em>
+  </div>
+  <div class="title">
+    http.promises?
+  </div>
+  <div>
+    <a href="https://github.com/openjs-foundation/summit/issues/216">https://github.com/openjs-foundation/summit/issues/216</a>
+  </div>
+  <div>
+    <em>Recap</em>
+  </div>
+  <div class="title">
+    <div style="height: 30%" class="bubblegum">
+      Thanks
+    </div>
+    <div style="font-size: 0.2em">
+      <em>@</em>matteocollina
+    </div>
+  </div>
+</body>
+</html>
